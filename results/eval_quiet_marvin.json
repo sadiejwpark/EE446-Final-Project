@@ -1,0 +1,13 @@
+{
+  "true_label": "marvin",
+  "num_triggers_observed": 15,
+  "latency": {
+    "n": 155,
+    "mean_us": 353301.5,
+    "median_us": 353295,
+    "p95_us": 353696,
+    "max_us": 354363,
+    "min_us": 352625
+  },
+  "note": "Divide num_triggers_observed by the number of wake-word utterances you actually played to get recall; 1 - recall = FRR. State the utterance count explicitly in your report."
+}

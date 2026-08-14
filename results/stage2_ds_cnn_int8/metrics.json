@@ -1,0 +1,28 @@
+{
+  "float32_model_path": "results/stage1_ds_cnn/float32_model.keras",
+  "float32_size_kb": 405.3,
+  "int8_size_kb": 45.9,
+  "size_reduction_pct": 88.7,
+  "int8_test_accuracy": 0.9726495726495726,
+  "int8_test_macro_f1": 0.9726401319184825,
+  "int8_per_class": {
+    "marvin": {
+      "precision": 0.9637305699481865,
+      "recall": 0.9538461538461539,
+      "f1-score": 0.9587628865979382,
+      "support": 195.0
+    },
+    "unknown": {
+      "precision": 0.9593908629441624,
+      "recall": 0.9692307692307692,
+      "f1-score": 0.9642857142857143,
+      "support": 195.0
+    },
+    "silence": {
+      "precision": 0.9948717948717949,
+      "recall": 0.9948717948717949,
+      "f1-score": 0.9948717948717949,
+      "support": 195.0
+    }
+  }
+}

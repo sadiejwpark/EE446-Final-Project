@@ -1,0 +1,13 @@
+{
+  "duration_hours": 1.0,
+  "num_false_triggers": 0,
+  "false_accepts_per_hour": 0.0,
+  "latency": {
+    "n": 3456,
+    "mean_us": 353377.0,
+    "median_us": 353369.0,
+    "p95_us": 353763,
+    "max_us": 355302,
+    "min_us": 352583
+  }
+}

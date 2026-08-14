@@ -1,0 +1,17 @@
+{
+  "true_label": "silence",
+  "n_samples": 233,
+  "pred_distribution": {
+    "silence": 231,
+    "unknown": 2
+  },
+  "accuracy_this_class": 0.9914,
+  "latency": {
+    "n": 233,
+    "mean_us": 353411.4,
+    "median_us": 353378,
+    "p95_us": 353796,
+    "max_us": 354933,
+    "min_us": 352727
+  }
+}

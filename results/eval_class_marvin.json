@@ -1,0 +1,18 @@
+{
+  "true_label": "marvin",
+  "n_samples": 98,
+  "pred_distribution": {
+    "silence": 37,
+    "marvin": 38,
+    "unknown": 23
+  },
+  "accuracy_this_class": 0.3878,
+  "latency": {
+    "n": 98,
+    "mean_us": 353309.9,
+    "median_us": 353286.5,
+    "p95_us": 353722,
+    "max_us": 355548,
+    "min_us": 352636
+  }
+}

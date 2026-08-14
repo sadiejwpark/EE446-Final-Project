@@ -1,0 +1,28 @@
+{
+  "float32_model_path": "results/stage4_pruning/structured_width_0.5/model.keras",
+  "float32_size_kb": 222.8,
+  "int8_size_kb": 23.7,
+  "size_reduction_pct": 89.4,
+  "int8_test_accuracy": 0.9504273504273504,
+  "int8_test_macro_f1": 0.9506423407633803,
+  "int8_per_class": {
+    "marvin": {
+      "precision": 0.9381443298969072,
+      "recall": 0.9333333333333333,
+      "f1-score": 0.9357326478149101,
+      "support": 195.0
+    },
+    "unknown": {
+      "precision": 0.9207920792079208,
+      "recall": 0.9538461538461539,
+      "f1-score": 0.9370277078085643,
+      "support": 195.0
+    },
+    "silence": {
+      "precision": 0.9947089947089947,
+      "recall": 0.9641025641025641,
+      "f1-score": 0.9791666666666666,
+      "support": 195.0
+    }
+  }
+}

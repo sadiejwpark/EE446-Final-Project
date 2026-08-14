@@ -1,0 +1,51 @@
+{
+  "model": "cnn_1d",
+  "num_mfcc": 13,
+  "num_params": 24691,
+  "train_accuracy": 0.9651072025299072,
+  "val_accuracy": 0.964102566242218,
+  "test_accuracy": 0.9726495726495726,
+  "test_macro_f1": 0.9726188009687573,
+  "test_per_class": {
+    "marvin": {
+      "precision": 0.958974358974359,
+      "recall": 0.958974358974359,
+      "f1-score": 0.958974358974359,
+      "support": 195.0
+    },
+    "unknown": {
+      "precision": 0.9639175257731959,
+      "recall": 0.958974358974359,
+      "f1-score": 0.961439588688946,
+      "support": 195.0
+    },
+    "silence": {
+      "precision": 0.9948979591836735,
+      "recall": 1.0,
+      "f1-score": 0.9974424552429667,
+      "support": 195.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      187,
+      7,
+      1
+    ],
+    [
+      8,
+      187,
+      0
+    ],
+    [
+      0,
+      0,
+      195
+    ]
+  ],
+  "labels_order": [
+    "marvin",
+    "unknown",
+    "silence"
+  ]
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "num_mfcc": 13,
+    "test_accuracy": 0.9829059829059829,
+    "test_macro_f1": 0.9829055333473596,
+    "num_params": 23747,
+    "float32_size_kb": 405.3
+  },
+  {
+    "num_mfcc": 10,
+    "test_accuracy": 0.9743589743589743,
+    "test_macro_f1": 0.974298832368608,
+    "num_params": 23747,
+    "float32_size_kb": 405.3
+  },
+  {
+    "num_mfcc": 8,
+    "test_accuracy": 0.9726495726495726,
+    "test_macro_f1": 0.9726413095651049,
+    "num_params": 23747,
+    "float32_size_kb": 405.3
+  }
+]

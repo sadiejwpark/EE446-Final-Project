@@ -1,0 +1,41 @@
+[
+  {
+    "technique": "structured_width_reduction",
+    "width_multiplier": 1.0,
+    "num_params": 23747,
+    "float32_size_kb": 405.3,
+    "test_accuracy": 0.9794871807098389,
+    "model_path": "results/stage4_pruning/structured_width_1.0/model.keras"
+  },
+  {
+    "technique": "structured_width_reduction",
+    "width_multiplier": 0.75,
+    "num_params": 14739,
+    "float32_size_kb": 302.1,
+    "test_accuracy": 0.9794871807098389,
+    "model_path": "results/stage4_pruning/structured_width_0.75/model.keras"
+  },
+  {
+    "technique": "structured_width_reduction",
+    "width_multiplier": 0.5,
+    "num_params": 7779,
+    "float32_size_kb": 222.8,
+    "test_accuracy": 0.9623931646347046,
+    "model_path": "results/stage4_pruning/structured_width_0.5/model.keras"
+  },
+  {
+    "technique": "structured_width_reduction",
+    "width_multiplier": 0.35,
+    "num_params": 4469,
+    "float32_size_kb": 185.4,
+    "test_accuracy": 0.964102566242218,
+    "model_path": "results/stage4_pruning/structured_width_0.35/model.keras"
+  },
+  {
+    "technique": "unstructured_magnitude_pruning_tfmot",
+    "target_sparsity": 0.5,
+    "test_accuracy": 0.9709401726722717,
+    "model_path": "results/stage4_pruning/unstructured_tfmot/model.h5",
+    "note": "Element-wise sparsity; helps compressed file size, NOT on-device latency/RAM on TFLite Micro without sparse kernel support."
+  }
+]
